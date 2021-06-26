@@ -21,7 +21,6 @@ def clean_empty_files(raw_directory, links_list)
   end 
 end
 
-notes_path = "#{ENV['HOME']}/Notes/"
-
+notes_path = "#{ENV['HOME']}/obsidian/aav/"
 links_list = read_markdown_directory(notes_path)
 clean_empty_files(notes_path, links_list)
